@@ -1,14 +1,6 @@
 % SongRMG Version 2018.04 
 % Reference: Song & Dalguer (2013, GJI), Song et al. (2014, GJI), Song (2016, GJI)
 
-% Notes
-3) Moment rate function is added 
-2) 2-Point simulatin is performed with coarse grid, then fine grid data
-are obtained by interpolation (Sept. 2015)
-1) The code is modified to generate random hypocenter locations
-for SCEC BBP Part_B tests (October 2013)
-
-
 % File structure 
 SongRMG.m	=> main program
 
