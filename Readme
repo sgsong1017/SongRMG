@@ -1,0 +1,47 @@
+% SongRMG Version 2018.04 
+% Reference: Song & Dalguer (2013, GJI), Song et al. (2014, GJI), Song (2016, GJI)
+
+% Notes
+3) Moment rate function is added 
+2) 2-Point simulatin is performed with coarse grid, then fine grid data
+are obtained by interpolation (Sept. 2015)
+1) The code is modified to generate random hypocenter locations
+for SCEC BBP Part_B tests (October 2013)
+
+
+% File structure 
+SongRMG.m	=> main program
+
+% Input
+gen_src.m 	=> basic description for source model 
+gen_stats.m 	=> set up target 1-point and 2-point statistics
+
+% Rupture model generator
+gen_rup.m	=> generate rupture models (main subscript)	
+gen_dist.m	=> reproducing target 2-point statistics 
+gen_rho.m	=> input coherence structure for 'gen_dist.m' 
+trans_dist.m    => transform 1-point statistics (from normal to target dist., currently not used)
+
+gen_rupT.m	=> calculate rupture time from rupture velocity
+gen_svf.m	=> generate slip velocity function
+svf_pliu.m	=> generate pliu SVF (Liu et al. BSSA, 2006)
+svf_etinti.m    => generate etinti SVF (Tinti et al. JGR 2005)
+
+% Output
+gen_srf.m	=> generate SRF files (SRF: Standard Rupture Format by R. Graves)
+
+
+% Utility
+fmomentN.m	=> compute Mo and Mw from slip dist.
+fMo2MwN.m	=> Mo => Mw
+fMw2MoN.m       => Mw => Mo
+p_p1.m		=> analyzing 1-point statistics of simulated rupture models
+p_p2.m		=> analyzing 2-point statistics of simulated rupture models 
+p_rup.m		=> plotting simulated ruptue models
+p_mrf.m         => plotting moment rate function and its spectrum
+
+
+
+
+
+
