@@ -15,7 +15,7 @@ gen_dist.m	=> reproducing target 2-point statistics
 gen_rho.m	=> input coherence structure for 'gen_dist.m' 
 trans_dist.m    => transform 1-point statistics (from normal to target dist., currently not used)
 
-gen_rupT.m	=> calculate rupture time from rupture velocity
+gen_rupT.m	=> calculate rupture time from rupture velocity (now replaced by the FastMarching algorithm)
 gen_svf.m	=> generate slip velocity function
 svf_pliu.m	=> generate pliu SVF (Liu et al. BSSA, 2006)
 svf_etinti.m    => generate etinti SVF (Tinti et al. JGR 2005)
