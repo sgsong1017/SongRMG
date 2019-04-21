@@ -25,8 +25,8 @@ gen_srf.m	=> generate SRF files (SRF: Standard Rupture Format by R. Graves)
 % Utility
 b_taper.m => tapering slip distribution near fault boundary
 
-fmomentN.m	=> compute Mo and Mw from slip dist.
-fMo2MwN.m	  => Mo => Mw
+fmomentN.m  => compute Mo and Mw from slip dist.
+fMo2MwN.m   => Mo => Mw
 fMw2MoN.m   => Mw => Mo
 
 p_rup.m		=> plotting simulated ruptue models
