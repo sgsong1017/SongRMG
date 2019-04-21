@@ -15,6 +15,8 @@ gen_rup.m	=> generate rupture models (main subscript)
 gen_dist.m	=> reproducing target 2-point statistics 
 gen_rho.m	=> input coherence structure for 'gen_dist.m' 
 
+./FastMarching/code/fm.m  => compute rupture time with rupture velocity by FastMarching algorithm (Markus Buehren)
+
 gen_svf.m	=> generate slip velocity function
 svf_pliu.m	=> generate pliu SVF (Liu et al. BSSA, 2006)
 svf_etinti.m    => generate etinti SVF (Tinti et al. JGR 2005)
