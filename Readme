@@ -8,14 +8,13 @@ SongRMG.m	=> main program
 % Input
 gen_src.m 	=> basic description for source model 
 gen_stats.m 	=> set up target 1-point and 2-point statistics
+gen_stats_inp.m => automatic setup for 1-point and 2-point statistics
 
 % Rupture model generator
 gen_rup.m	=> generate rupture models (main subscript)	
 gen_dist.m	=> reproducing target 2-point statistics 
 gen_rho.m	=> input coherence structure for 'gen_dist.m' 
-trans_dist.m    => transform 1-point statistics (from normal to target dist., currently not used)
 
-gen_rupT.m	=> calculate rupture time from rupture velocity (now replaced by the FastMarching algorithm)
 gen_svf.m	=> generate slip velocity function
 svf_pliu.m	=> generate pliu SVF (Liu et al. BSSA, 2006)
 svf_etinti.m    => generate etinti SVF (Tinti et al. JGR 2005)
@@ -23,17 +22,17 @@ svf_etinti.m    => generate etinti SVF (Tinti et al. JGR 2005)
 % Output
 gen_srf.m	=> generate SRF files (SRF: Standard Rupture Format by R. Graves)
 
-
 % Utility
+b_taper.m => tapering slip distribution near fault boundary
+
 fmomentN.m	=> compute Mo and Mw from slip dist.
-fMo2MwN.m	=> Mo => Mw
-fMw2MoN.m       => Mw => Mo
+fMo2MwN.m	  => Mo => Mw
+fMw2MoN.m   => Mw => Mo
+
+p_rup.m		=> plotting simulated ruptue models
+p_mrf.m   => plotting moment rate function and its spectrum
 p_p1.m		=> analyzing 1-point statistics of simulated rupture models
 p_p2.m		=> analyzing 2-point statistics of simulated rupture models 
-p_rup.m		=> plotting simulated ruptue models
-p_mrf.m         => plotting moment rate function and its spectrum
-
-
 
 
 
