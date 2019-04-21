@@ -29,10 +29,10 @@ fmomentN.m  => compute Mo and Mw from slip dist.
 fMo2MwN.m   => Mo => Mw
 fMw2MoN.m   => Mw => Mo
 
-p_rup.m		=> plotting simulated ruptue models
+p_rup.m   => plotting simulated ruptue models
 p_mrf.m   => plotting moment rate function and its spectrum
-p_p1.m		=> analyzing 1-point statistics of simulated rupture models
-p_p2.m		=> analyzing 2-point statistics of simulated rupture models 
+p_p1.m    => analyzing 1-point statistics of simulated rupture models
+p_p2.m    => analyzing 2-point statistics of simulated rupture models 
 
 
 
