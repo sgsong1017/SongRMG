@@ -3,7 +3,7 @@
 % Reference: Song & Dalguer (2013, GJI), Song et al. (2014, GJI), Song (2016, GJI)
 
 % File structure 
-SongRMG.m	=> main program
+SongRMG.m	=> main script
 
 % Input
 gen_src.m 	=> basic description for source model 
