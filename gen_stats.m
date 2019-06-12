@@ -24,8 +24,8 @@ rup.mu = 33e9;
 %%%Samping input 1-point and 2-point statistics, given the source statistics model
 [rup] = gen_stats_inp(rup);
 
-rup.p1.mu =  [rup.stats(rup.stats_id,1) rup.stats(rup.stats_id,2) rup.stats(rup.stats_id,3)];
-rup.p1.sig = [rup.stats(rup.stats_id,4) rup.stats(rup.stats_id,5) rup.stats(rup.stats_id,6)];
+rup.p1.mu =  [rup.stats(rup.stats_id,1) rup.stats(rup.stats_id,2)*1.5 rup.stats(rup.stats_id,3)];
+rup.p1.sig = [rup.stats(rup.stats_id,4) rup.stats(rup.stats_id,5)*1.5 rup.stats(rup.stats_id,6)];
 
 
 rup.p2.ax = [rup.stats(rup.stats_id,7) rup.stats(rup.stats_id,8)  rup.stats(rup.stats_id,9); ...
