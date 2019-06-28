@@ -35,7 +35,7 @@ p_rup.m   => plotting simulated ruptue models
 p_mrf.m   => plotting moment rate function and its spectrum
 p_p1.m    => analyzing 1-point statistics of simulated rupture models
 p_p2.m    => analyzing 2-point statistics of simulated rupture models 
-
+co_vario2.m => computing 2D correlogram, called by p_p2.m
 
 
 
