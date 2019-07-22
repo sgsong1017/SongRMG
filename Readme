@@ -3,6 +3,7 @@
 % Reference: Song & Dalguer (2013, GJI), Song et al. (2014, GJI), Song (2016, GJI)
 
 % Release Notes
+0) The input models, currently available, were obatained for Mw 6.5 - 7.0. It needs to be used with cautions outside this range.
 1) Currently, the Gaussian distribution is assummed for 1-point statistics. Thus, negative values for each source parameter are truncated.
 2) The positive definiteness of the covariance matrix for both auto and cross-correlations of source parameters is acheived by replacing 
     negative eigenvalues with slightly positive ones after the eigenvalue decomposition of the covariance matrix.
