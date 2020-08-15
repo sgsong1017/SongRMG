@@ -5,12 +5,10 @@
 % Release Notes
 0) The input models, currently available, were obatained for Mw 6.5 - 7.0. It needs to be used with cautions outside this range.
 1) Currently, the Gaussian distribution is assummed for 1-point statistics. Thus, negative values for each source parameter are truncated.
-2) The positive definiteness of the covariance matrix for both auto and cross-correlations of source parameters is acheived by replacing 
-    negative eigenvalues with slightly positive ones after the eigenvalue decomposition of the covariance matrix.
+2) The positive definiteness of the covariance matrix for both auto and cross-correlations of source parameters is acheived by replacing negative eigenvalues with slightly positive ones after the eigenvalue decomposition of the covariance matrix.
 3) Currently, only the exponential function is used for the funcitonal form of both auto and cross-correlation.
 4) Only the slip distribution is tapered around the fault boundary, no tapering for rupture velocity and peak slip velocity yet.
-5) Both mean and standard deviation of the input rupture velocity are increased by a factor of 1.5. This is an ad-hoc solution to make
-    the rupture velocity fast enough for the time being.
+5) Both mean and standard deviation of the input rupture velocity are increased by a factor of 1.5. This is an ad-hoc solution to make the rupture velocity fast enough for the time being.
 
 
 % File structure 
