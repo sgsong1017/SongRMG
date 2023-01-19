@@ -3,7 +3,7 @@
 
 function [rup] = gen_stats(rup)
 
-%%%          [slip Vr Vmax risT];
+%%%          [slip(cm) Vr(km/s) Vmax(cm/s) risT(s)];
 rup.p1.min = [0   1.0 1.0 0.2];
 rup.p1.max = [500 6.0 500 5];
 
