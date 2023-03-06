@@ -1,6 +1,11 @@
 SongRMG python version (March 2023)
 
-Note: Bascially it is the same as the matlab version RMG, but not fully tested yet, so be cautious...
+Note: 
+
+Bascially it is the same as the matlab version RMG, but not fully tested yet, so be cautious...
+
+Jupyter notebook version (.ipynb) is also given.
 
 And any bug report and feedback is welcome!
 
+Seok Goo Song (sgsong (at) kigam.re.kr)
