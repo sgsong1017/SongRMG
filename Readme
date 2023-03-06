@@ -10,6 +10,8 @@
 4) Only the slip distribution is tapered around the fault boundary, no tapering for rupture velocity and peak slip velocity yet.
 5) Both mean and standard deviation of the input rupture velocity are increased by a factor of 1.5. This is an ad-hoc solution to make the rupture velocity fast enough for the time being.
 
+6) Python version is also given in the "rmg_python" folder
+
 
 % File structure 
 SongRMG.m	=> main script
