@@ -82,7 +82,7 @@ rup["dis"] = [0]*rup["num"]
 for inum in range(rup["num"]):
 
   rup["lx"][inum] = np.arange(rup["dx"]/2,rup["dx"]*rup["nx"],rup["dx"]) - (rup["nx"]*rup["dx"]/2 + rup["shyp"][inum])
-  rup["lz"][inum] = np.arange(rup["dz"]/2,rup["dz"]*rup["nz"],rup["dx"]) - rup["dhyp"][inum]
+  rup["lz"][inum] = np.arange(rup["dz"]/2,rup["dz"]*rup["nz"],rup["dz"]) - rup["dhyp"][inum]
   
   rup["lx1"][inum] = np.arange(rup["dx1"]/2,rup["dx1"]*rup["nx1"],rup["dx1"]) - (rup["nx1"]*rup["dx1"]/2 + rup["shyp"][inum])
   rup["lz1"][inum] = np.arange(rup["dz1"]/2,rup["dz1"]*rup["nz1"],rup["dz1"]) - rup["dhyp"][inum]
